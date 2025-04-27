@@ -1,0 +1,20 @@
+.custom-button {
+  background-color: #a030f0; /* Orange background */
+  color: white; /* White text */
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #7a23b8; /* Darker orange on hover */
+}
+
+.custom-button:disabled {
+  background-color: #cccccc; /* Gray background when disabled */
+  cursor: not-allowed;
+}
