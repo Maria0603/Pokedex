@@ -12,7 +12,7 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/Pokedex">
       <Navbar />
       <Routes>
         <Route path="/" element={<PokemonList />} />
